@@ -1,0 +1,82 @@
+# ninja log v6
+5528	5986	7597166687591836	patientsQueue.exe	7bd5b946fc86e985
+25	311	7597178190844528	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+25	311	7597178190844528	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+25	311	7597178190844528	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+25	311	7597178190844528	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+1373	7443	7597177855070855	CMakeFiles/patientsQueue.dir/main.cpp.obj	bebaaa5932b5441
+14	230	7597065927394699	test_autogen/mocs_compilation.cpp	dc5fd6671fb0f6d9
+1360	7428	7597177854940839	CMakeFiles/patientsQueue.dir/patientsQueue_autogen/mocs_compilation.cpp.obj	2b6bae2ec68c5695
+288	5527	7597166635197491	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+1398	5092	7597177855320842	CMakeFiles/patientsQueue.dir/Patient.cpp.obj	411f46899fbd2846
+10	994	7597178901135363	build.ninja	d3677ee274292f78
+14	230	7597065927394699	test_autogen/timestamp	dc5fd6671fb0f6d9
+11	49	7597177839579102	CMakeFiles/clean.additional	baedbe210acaa455
+14	230	7597065927394699	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/test_autogen/timestamp	dc5fd6671fb0f6d9
+14	230	7597065927394699	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/test_autogen/mocs_compilation.cpp	dc5fd6671fb0f6d9
+28	148	7597066145357310	CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.obj	19ef25978989e730
+49	64	7597177839963421	clean	577b940aee94fbd7
+14	1085	7597178901135363	build.ninja	d3677ee274292f78
+28	365	7597178902135261	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+28	365	7597178902135261	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+28	365	7597178902135261	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+28	365	7597178902135261	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+366	5661	7597178905511491	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+5661	6187	7597178958460339	patientsQueue.exe	7bd5b946fc86e985
+24	366	7597179879849261	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+24	366	7597179879849261	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+24	366	7597179879849261	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+24	366	7597179879849261	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+368	5609	7597179883286423	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+5609	6081	7597179935702991	patientsQueue.exe	7bd5b946fc86e985
+36	342	7597181496942401	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+36	342	7597181496942401	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+36	342	7597181496942401	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+36	342	7597181496942401	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+39	408	7597181833558810	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+39	408	7597181833558810	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+39	408	7597181833558810	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+39	408	7597181833558810	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+410	6961	7597181837259636	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+6961	7450	7597181902775279	patientsQueue.exe	7bd5b946fc86e985
+28	400	7597183097993248	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+28	400	7597183097993248	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+28	400	7597183097993248	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+28	400	7597183097993248	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+29	339	7597183221708924	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+29	339	7597183221708924	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+29	339	7597183221708924	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+29	339	7597183221708924	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+33	334	7597183419908986	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+33	334	7597183419908986	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+33	334	7597183419908986	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+33	334	7597183419908986	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+336	6220	7597183422935234	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+6220	6764	7597183481779335	patientsQueue.exe	7bd5b946fc86e985
+37	365	7597185508803457	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+37	365	7597185508803457	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+37	365	7597185508803457	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+37	365	7597185508803457	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+38	398	7597185846403260	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+38	398	7597185846403260	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+38	398	7597185846403260	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+38	398	7597185846403260	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+399	6981	7597185850016340	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+6982	7506	7597185915833566	patientsQueue.exe	7bd5b946fc86e985
+13	290	7597223359793960	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+13	290	7597223359793960	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+13	290	7597223359793960	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+13	290	7597223359793960	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+6	48	7597223475705561	CMakeFiles/clean.additional	baedbe210acaa455
+48	61	7597223476127609	clean	577b940aee94fbd7
+6	29	7597223492493337	CMakeFiles/clean.additional	baedbe210acaa455
+29	39	7597223492731658	clean	577b940aee94fbd7
+13	1013	7597223503022542	patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+13	1013	7597223503022542	patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+13	1013	7597223503022542	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/timestamp	8a14a1cc192f59ed
+13	1013	7597223503022542	C:/Users/anya ananasss.HOME-PC/Documents/patientsQueue/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/patientsQueue_autogen/mocs_compilation.cpp	8a14a1cc192f59ed
+1040	3925	7597223504028796	CMakeFiles/patientsQueue.dir/Patient.cpp.obj	411f46899fbd2846
+1013	6036	7597223503759048	CMakeFiles/patientsQueue.dir/patientsQueue_autogen/mocs_compilation.cpp.obj	2b6bae2ec68c5695
+1023	6042	7597223503848827	CMakeFiles/patientsQueue.dir/main.cpp.obj	bebaaa5932b5441
+1031	6942	7597223503928830	CMakeFiles/patientsQueue.dir/mainwindow.cpp.obj	54a50f031b28d75b
+6942	7432	7597223563043912	patientsQueue.exe	7bd5b946fc86e985
