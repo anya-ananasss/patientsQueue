@@ -12,13 +12,14 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableView>
 #include <QtWidgets/QVBoxLayout>
@@ -30,26 +31,22 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QWidget *gridLayoutWidget;
-    QGridLayout *gridLayout;
-    QVBoxLayout *verticalLayout_13;
-    QVBoxLayout *verticalLayout_11;
-    QLabel *label_11;
+    QGridLayout *gridLayout_2;
+    QGroupBox *groupBox_3;
+    QVBoxLayout *verticalLayout;
+    QTableView *patientsTable;
+    QGroupBox *groupBox;
+    QVBoxLayout *verticalLayout_2;
     QLabel *label_19;
     QLineEdit *firstNameArea;
     QLabel *label_20;
     QLineEdit *middleNameArea;
-    QLabel *addedPatientStateArea;
     QPushButton *addPatientButton;
-    QVBoxLayout *verticalLayout_20;
-    QVBoxLayout *verticalLayout_10;
-    QVBoxLayout *verticalLayout_12;
-    QLabel *label_12;
-    QScrollArea *scrollArea_3;
-    QWidget *scrollAreaWidgetContents_5;
-    QTableView *patientsTable;
+    QLabel *addedPatientStateArea;
+    QSpacerItem *verticalSpacer;
+    QGroupBox *groupBox_2;
+    QVBoxLayout *verticalLayout_5;
     QLabel *doctorOfficeStateArea;
-    QLabel *label_17;
     QPushButton *seeAnotherPatientButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -58,118 +55,90 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1049, 567);
+        MainWindow->resize(1027, 789);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        gridLayoutWidget = new QWidget(centralwidget);
-        gridLayoutWidget->setObjectName("gridLayoutWidget");
-        gridLayoutWidget->setGeometry(QRect(10, 10, 1021, 511));
-        gridLayout = new QGridLayout(gridLayoutWidget);
-        gridLayout->setObjectName("gridLayout");
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-        verticalLayout_13 = new QVBoxLayout();
-        verticalLayout_13->setObjectName("verticalLayout_13");
-        verticalLayout_11 = new QVBoxLayout();
-        verticalLayout_11->setObjectName("verticalLayout_11");
-        label_11 = new QLabel(gridLayoutWidget);
-        label_11->setObjectName("label_11");
-        label_11->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
-        label_11->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setObjectName("gridLayout_2");
+        groupBox_3 = new QGroupBox(centralwidget);
+        groupBox_3->setObjectName("groupBox_3");
+        groupBox_3->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        verticalLayout = new QVBoxLayout(groupBox_3);
+        verticalLayout->setObjectName("verticalLayout");
+        patientsTable = new QTableView(groupBox_3);
+        patientsTable->setObjectName("patientsTable");
 
-        verticalLayout_11->addWidget(label_11);
+        verticalLayout->addWidget(patientsTable);
 
-        label_19 = new QLabel(gridLayoutWidget);
+
+        gridLayout_2->addWidget(groupBox_3, 1, 0, 1, 1);
+
+        groupBox = new QGroupBox(centralwidget);
+        groupBox->setObjectName("groupBox");
+        groupBox->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        verticalLayout_2 = new QVBoxLayout(groupBox);
+        verticalLayout_2->setObjectName("verticalLayout_2");
+        label_19 = new QLabel(groupBox);
         label_19->setObjectName("label_19");
 
-        verticalLayout_11->addWidget(label_19);
+        verticalLayout_2->addWidget(label_19);
 
-        firstNameArea = new QLineEdit(gridLayoutWidget);
+        firstNameArea = new QLineEdit(groupBox);
         firstNameArea->setObjectName("firstNameArea");
 
-        verticalLayout_11->addWidget(firstNameArea);
+        verticalLayout_2->addWidget(firstNameArea);
 
-        label_20 = new QLabel(gridLayoutWidget);
+        label_20 = new QLabel(groupBox);
         label_20->setObjectName("label_20");
 
-        verticalLayout_11->addWidget(label_20);
+        verticalLayout_2->addWidget(label_20);
 
-        middleNameArea = new QLineEdit(gridLayoutWidget);
+        middleNameArea = new QLineEdit(groupBox);
         middleNameArea->setObjectName("middleNameArea");
 
-        verticalLayout_11->addWidget(middleNameArea);
+        verticalLayout_2->addWidget(middleNameArea);
 
-        addedPatientStateArea = new QLabel(gridLayoutWidget);
+        addPatientButton = new QPushButton(groupBox);
+        addPatientButton->setObjectName("addPatientButton");
+
+        verticalLayout_2->addWidget(addPatientButton);
+
+        addedPatientStateArea = new QLabel(groupBox);
         addedPatientStateArea->setObjectName("addedPatientStateArea");
         addedPatientStateArea->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        verticalLayout_11->addWidget(addedPatientStateArea);
+        verticalLayout_2->addWidget(addedPatientStateArea);
 
-        addPatientButton = new QPushButton(gridLayoutWidget);
-        addPatientButton->setObjectName("addPatientButton");
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
-        verticalLayout_11->addWidget(addPatientButton);
-
-
-        verticalLayout_13->addLayout(verticalLayout_11);
+        verticalLayout_2->addItem(verticalSpacer);
 
 
-        gridLayout->addLayout(verticalLayout_13, 6, 1, 1, 1);
+        gridLayout_2->addWidget(groupBox, 1, 1, 1, 1);
 
-        verticalLayout_20 = new QVBoxLayout();
-        verticalLayout_20->setObjectName("verticalLayout_20");
-
-        gridLayout->addLayout(verticalLayout_20, 0, 0, 1, 1);
-
-        verticalLayout_10 = new QVBoxLayout();
-        verticalLayout_10->setObjectName("verticalLayout_10");
-        verticalLayout_12 = new QVBoxLayout();
-        verticalLayout_12->setObjectName("verticalLayout_12");
-        label_12 = new QLabel(gridLayoutWidget);
-        label_12->setObjectName("label_12");
-        label_12->setAlignment(Qt::AlignmentFlag::AlignCenter);
-
-        verticalLayout_12->addWidget(label_12);
-
-        scrollArea_3 = new QScrollArea(gridLayoutWidget);
-        scrollArea_3->setObjectName("scrollArea_3");
-        scrollArea_3->setWidgetResizable(true);
-        scrollAreaWidgetContents_5 = new QWidget();
-        scrollAreaWidgetContents_5->setObjectName("scrollAreaWidgetContents_5");
-        scrollAreaWidgetContents_5->setGeometry(QRect(0, 0, 501, 399));
-        patientsTable = new QTableView(scrollAreaWidgetContents_5);
-        patientsTable->setObjectName("patientsTable");
-        patientsTable->setGeometry(QRect(-10, 0, 521, 451));
-        scrollArea_3->setWidget(scrollAreaWidgetContents_5);
-
-        verticalLayout_12->addWidget(scrollArea_3);
-
-
-        verticalLayout_10->addLayout(verticalLayout_12);
-
-
-        gridLayout->addLayout(verticalLayout_10, 6, 0, 1, 1);
-
-        doctorOfficeStateArea = new QLabel(gridLayoutWidget);
+        groupBox_2 = new QGroupBox(centralwidget);
+        groupBox_2->setObjectName("groupBox_2");
+        groupBox_2->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        verticalLayout_5 = new QVBoxLayout(groupBox_2);
+        verticalLayout_5->setObjectName("verticalLayout_5");
+        doctorOfficeStateArea = new QLabel(groupBox_2);
         doctorOfficeStateArea->setObjectName("doctorOfficeStateArea");
         doctorOfficeStateArea->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout->addWidget(doctorOfficeStateArea, 2, 0, 1, 2);
+        verticalLayout_5->addWidget(doctorOfficeStateArea);
 
-        label_17 = new QLabel(gridLayoutWidget);
-        label_17->setObjectName("label_17");
-        label_17->setAlignment(Qt::AlignmentFlag::AlignCenter);
-
-        gridLayout->addWidget(label_17, 1, 0, 1, 2);
-
-        seeAnotherPatientButton = new QPushButton(gridLayoutWidget);
+        seeAnotherPatientButton = new QPushButton(groupBox_2);
         seeAnotherPatientButton->setObjectName("seeAnotherPatientButton");
 
-        gridLayout->addWidget(seeAnotherPatientButton, 3, 0, 1, 2);
+        verticalLayout_5->addWidget(seeAnotherPatientButton);
+
+
+        gridLayout_2->addWidget(groupBox_2, 0, 0, 1, 2);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1049, 22));
+        menubar->setGeometry(QRect(0, 0, 1027, 22));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -183,14 +152,14 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label_11->setText(QCoreApplication::translate("MainWindow", "Add New Patient", nullptr));
+        groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "Patients", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("MainWindow", "Add New Patient", nullptr));
         label_19->setText(QCoreApplication::translate("MainWindow", "First Name:", nullptr));
         label_20->setText(QCoreApplication::translate("MainWindow", "Middle Name:", nullptr));
-        addedPatientStateArea->setText(QString());
         addPatientButton->setText(QCoreApplication::translate("MainWindow", "Add Patient", nullptr));
-        label_12->setText(QCoreApplication::translate("MainWindow", "Patients", nullptr));
+        addedPatientStateArea->setText(QString());
+        groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "Doctor's Office", nullptr));
         doctorOfficeStateArea->setText(QCoreApplication::translate("MainWindow", "Doctor's Office is empty now!", nullptr));
-        label_17->setText(QCoreApplication::translate("MainWindow", "Doctor's Office", nullptr));
         seeAnotherPatientButton->setText(QCoreApplication::translate("MainWindow", "See Next Patient", nullptr));
     } // retranslateUi
 

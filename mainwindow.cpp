@@ -9,6 +9,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
 {
     ui->setupUi(this);
     ui->doctorOfficeStateArea->setText("Doctor's Office is empty now!");
+    ui->patientsTable->verticalHeader()->setVisible(false);
     insertDefaultData();
     setWindowTitle("Patients Queue");
 }
@@ -18,26 +19,28 @@ MainWindow::~MainWindow()
 }
 void MainWindow::insertDefaultData()
 {
-    // Инициализация очереди с элементами
+
     patientQueue.push(Patient("Anya", "Anya"));
-    patientQueue.push(Patient("Helen", "Golovach"));
+    patientQueue.push(Patient("Vlad", "Kot"));
+    patientQueue.push(Patient("Ivan", "Romanin"));
     patientQueue.push(Patient("Egor", "Black"));
 
-    // Обновление таблицы
+
+
     updateTableView();
 }
 
 void MainWindow::updateTableView()
 {
-    // Создаем модель для QTableView
+
     QStandardItemModel *model = new QStandardItemModel(this);
     model->setColumnCount(3);
     model->setHeaderData(0, Qt::Horizontal, "Appt Num");
     model->setHeaderData(1, Qt::Horizontal, "Name");
     model->setHeaderData(2, Qt::Horizontal, "Surname");
 
-    // Добавляем элементы из очереди в модель
-    std::queue<Patient> tempQueue = patientQueue; // Копия очереди для итерации
+
+    std::queue<Patient> tempQueue = patientQueue;
     int row = 0;
     while (!tempQueue.empty()) {
         const Patient &patient = tempQueue.front();
@@ -54,7 +57,7 @@ void MainWindow::updateTableView()
         ++row;
     }
 
-    // Устанавливаем модель для QTableView
+
     ui->patientsTable->setModel(model);
 }
 
